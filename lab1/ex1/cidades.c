@@ -8,7 +8,7 @@ int calcular(int cont, char * cidade) {
  char c = cidade[cont];
 
 	if (c != "\0") {
-	    calcular(cont+1, cidade)
+	    calcular(cont+1, cidade);
 	}
 	
 	return cont;
